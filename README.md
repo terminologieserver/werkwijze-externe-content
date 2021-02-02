@@ -1,2 +1,9 @@
 # ART-DECOR-mirroring
-Deze repository bevat de documentatie die relevant is voor het extraheren van resources uit ART-DECOR.
+To do:
+- Methode van verzamelen uit ART-DECOR
+- Wijzigingen voor uploaden
+- Methode van uploaden
+  - Toevoegen tags
+- Aandachtspunten voor benaderen resources in terminologieserver
+  - Meta (version en lastUpdated)
+- Update schema
