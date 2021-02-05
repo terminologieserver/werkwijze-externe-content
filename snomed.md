@@ -47,8 +47,8 @@ Dit supplement voegt twee zaken toe aan de bijbehorende Editie van SNOMED.
   Voor concepten waarvoor een textdefinitie beschikbaar is, wordt deze als designation aan het concept toegevoegd. De property is een _string_, overeenkomend met de textdefinitie uit de SNOMED-editie. Deze _string_ kan een lange tekst bevatten, met eventueel markup of HTML. Meer informatie over dit type beschrijvingen kunt u vinden in de Release Notes van de SNOMED Editie op https://mlds.ihtsdotools.org. Een tekstdefinitie is te herkennen aan bijvoorbeeld de valueCoding.display="tekstdefinitie" en valueCoding.code="900000000000550004".
 
 #### URI's
-- CodeSystem:   https://terminologieserver.nl/uri/cs/snomed-patient-friendly-terms
-- ValueSet:     https://terminologieserver.nl/uri/vs/snomed-patient-friendly-terms
+- __CodeSystem__:   https://terminologieserver.nl/uri/cs/snomed-patient-friendly-terms
+- __ValueSet__:     https://terminologieserver.nl/uri/vs/snomed-patient-friendly-terms
 
 #### Voorbeelden
 __Voorbeeld 1__ $lookup
@@ -92,7 +92,7 @@ __Voorbeeld 1__ $lookup
 In deze $lookup is te zien dat de __display__ gelijk is aan de Preferred Term uit de Patiëntvriendelijke taalrefentieset.
 
 __Voorbeeld 2__ $expand
-> request
+> https://terminologieserver.nl/fhir/ValueSet/$expand?url=https://terminologieserver.nl/uri/vs/snomed-patient-friendly-terms&includeDesignations=true&filter=74400008
 
 ```
 {
@@ -131,7 +131,7 @@ __Voorbeeld 2__ $expand
                 "system": "http://snomed.info/sct",
                 "version": "http://snomed.info/sct/11000146104/version/20200930",
                 "code": "74400008",
-                "display": "appendicitis",
+                "display": "blindedarmontsteking",
                 "designation": [
                     {
                         "language": "en",
@@ -201,4 +201,4 @@ __Voorbeeld 2__ $expand
     }
 }
 ```
-In deze $expand is te zien dat naast de display uit het codestelsel http://snomed.info/sct, er twee designations aanwezig zijn met language=__nl-NL-x-patfr__. De tekstdefinitie, en de preferred term uit het CodeSystem Supplement met patiëntvriendelijke termen.
+In deze $expand is te zien dat naast de display uit het CodeSystem supplement, er twee designations aanwezig zijn met language=__nl-NL-x-patfr__. De tekstdefinitie, en de preferred term uit het CodeSystem Supplement met patiëntvriendelijke termen.
