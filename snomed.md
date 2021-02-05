@@ -201,4 +201,4 @@ __Voorbeeld 2__ $expand
     }
 }
 ```
-In deze $expand is te zien dat er twee designations aanwezig zijn met language=__NL-x-PF__. De tekstdefinitie, en de preferred term.
+In deze $expand is te zien dat naast de display uit het codestelsel http://snomed.info/sct, er twee designations aanwezig zijn met language=__NL-x-PF__. De tekstdefinitie, en de preferred term uit het CodeSystem Supplement met patiëntvriendelijke termen.
