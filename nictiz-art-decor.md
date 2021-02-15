@@ -1,6 +1,6 @@
 # ART-DECOR-mirroring
 ## Auteurs
-__Geschreven door__: Sander Mertens, projectleider Terminologieserver
+__Geschreven door__: Sander Mertens
 
 __Review door__: 
 

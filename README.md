@@ -9,6 +9,9 @@ Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden
 ## Bronnen
 - __SNOMED__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/snomed.md
 - __LOINC__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/loinc.md
-- __ART-DECOR__ (decor.nictiz.nl): https://github.com/terminologieserver/werkwijze-externe-content/blob/main/nictiz-art-decor.md
 - __HL7__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hl7.md
 - __Labcodeset__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/labcodeset.md
+
+## Potentiële toekomstige bronnen
+_Deze resources zijn (nog) niet publiek beschikbaar, maar zijn inclusief documentatie in ontwikkeling. Er is geen datum bekend waarop deze resources beschikbaar komen._
+- __ART-DECOR__ (decor.nictiz.nl): https://github.com/terminologieserver/werkwijze-externe-content/blob/main/nictiz-art-decor.md
