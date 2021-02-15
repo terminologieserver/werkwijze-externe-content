@@ -1,5 +1,5 @@
 # Beschikbare resources op de Nationale Terminologieserver
-Laatste update: 2021-02-12 15:06:06.873297
+Laatste update: 2021-02-15 12:56:25.124008
 # CodeSystem
 |Titel|Versie|url|Laatste wijziging|
 |-|-|-|-|
@@ -38,10 +38,8 @@ Laatste update: 2021-02-12 15:06:06.873297
 # ConceptMap
 |Titel|Versie|url|Laatste wijziging|
 |-|-|-|-|
-|NHG tabel 45 Beeldvormend Onderzoek to SNOMED|20201207|https://mlds.ihtsdotools.org/#/releaseManagement/release/541921|2021-01-29T17:43:24.463+01:00|
 |Labconcepts-outcomes-20201022|20201022|http://labterminologie.nl/cm/labconcepts-outcomes|2021-02-12T09:54:55.219+01:00|
 |Labconcepts-ucum-20201022|20201022|http://labterminologie.nl/cm/labconcepts-ucum|2021-02-12T09:54:56.688+01:00|
-|ICPC1 NHG tabel naar SNOMED ConceptMap|20210131|https://mlds.ihtsdotools.org/#/releaseManagement/release/541913|2021-01-29T17:26:17.154+01:00|
 |Labconcepts-materials-20201022|20201022|http://labterminologie.nl/cm/labconcepts-materials|2021-02-12T09:54:52.424+01:00|
 
 
