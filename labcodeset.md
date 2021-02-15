@@ -28,8 +28,8 @@ Doordat LOINC nog niet compleet in FHIR beschikbaar is, zijn er een aantal vraag
 ### Panels
 - Regenstrief heeft nog geen definitief formaat gekozen voor het uitdrukken van panels. Wij zijn had bezig consensus te bereiken met Regenstrief, waarna deze in een gelijkend formaat worden toegevoegd in onze transformatie van de labcodeset.
 
-### Vervanging van deprecated codes
-- Het uitleverformaat van de labcodeset voorziet nog niet in het aanduiden van vervanging voor deprecated codes. Dit staat op de roadmap, en wordt hierop volgend ook toegevoegd aan deze FHIR-resources.
+### Pre-release LOINC codes
+- Regenstrief brengt bij uitzondering pre-release codes uit wanneer deze codes niet kunnen wachten op een release (bv. gerelateerd aan COVID-19). Deze codes zijn niet beschikbaar in de LOINC FHIR-resources, en kunnen dus ook niet in onze transformatie gebruikt worden. CodeSystem supplements kunnen geen codes toevoegen aan een bestaand CodeSystem, dus is er op dit moment geen goede manier om om te gaan met de situatie waarin een LOINC pre-release code in de labcodeset gebruikt wordt. Bij de huidige meest recente versie van de labcodeset is dit niet aan de orde. We zijn in gesprek met Regenstrief voor een oplossing. Het is zeer onwaarschijnlijk dat de oplossing voor dit probleem _breaking changes_ gaat opleveren in de huidige transformatie van de labcodeset, dus hoeft implementatie niet uitgesteld te worden.
 
 ## Beschikbare FHIR-resources
 Om de labcodeset voldoende in FHIR uit te drukken zijn de volgende FHIR resources nodig gebleken:
