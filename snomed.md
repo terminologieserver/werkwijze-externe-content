@@ -41,10 +41,12 @@ De methode die onder optie 1 beschreven staat biedt enkel de mogelijkheid om de 
 Dit supplement voegt twee zaken toe aan de bijbehorende Editie van SNOMED.
 - __Display__ : De display in het CodeSystem wordt vervangen door de Preferred Term uit de Patiëntvriendelijke Extensie. Bij een $lookup worden de synoniemen en tekstdefinities uit de Patiëntvriendelijke extensie getoond als designations. 
 
-  Bij een $expand op de bijbehorende ValueSet zal deze display aanwezig zijn als designation use.code=display en _language_ __nl-NL-x-patfr__.
-- __Designation__ : Patiëntvriendelijke termen worden toegevoegd als designations met _language_ "nl-NL-x-patfr". NB: Bij een $expand op de ValueSet zullen ook designations uit de SNOMED Editie worden getoond. Op basis van de _language_ __nl-NL-x-patfr__ zijn de termen te herkennen.
+  Bij een $expand op de bijbehorende ValueSet zal deze display aanwezig zijn als designation use.code=display en _language_ __nl-NL-x-sctlang-15551000-146102__.
+- __Designation__ : Patiëntvriendelijke termen worden toegevoegd als designations met _language_ "nl-NL-x-sctlang-15551000-146102". NB: Bij een $expand op de ValueSet zullen ook designations uit de SNOMED Editie worden getoond. Op basis van de _language_ __nl-NL-x-sctlang-15551000-146102__ zijn de termen te herkennen.
 
   Voor concepten waarvoor een textdefinitie beschikbaar is, wordt deze als designation aan het concept toegevoegd. De property is een _string_, overeenkomend met de textdefinitie uit de SNOMED-editie. Deze _string_ kan een lange tekst bevatten, met eventueel markup of HTML. Meer informatie over dit type beschrijvingen kunt u vinden in de Release Notes van de SNOMED Editie op https://mlds.ihtsdotools.org. Een tekstdefinitie is te herkennen aan bijvoorbeeld de valueCoding.display="tekstdefinitie" en valueCoding.code="900000000000550004".
+
+- __Herkomst language tag__:  15551000146102 is het SNOMED concept ID van de Nederlandse taalreferentieset voor patiëntvriendelijke termen. Om termen uit taalreferentiesets consistent beschikbaar te kunnen maken, hebben we gekozen voor het gebruik van language tags. Deze tags moeten in FHIR voldoen aan de BCP47 (https://tools.ietf.org/html/bcp47) standaard. Volgens deze standaard is het toegestaan om aan een taal (nl-NL) extra tags toe te voegen voor lokaal gebruik, met als prefix de tag __x__. De private tags volgend op de __x__ tag mogen elk 8 alfanumerieke karakters zijn. Om eenduidig aan te geven uit welke taalreferentieset het gaat, hebben we gekozen voor een constructie als volgt: nl-NL-x-sctlang-__XXXXXXXX__, waarbij XXXXXXXX vervangen kan worden door het SNOMED ID van de taalreferentieset. Om te voldoen aan de BCP47 standaard, wordt dit SNOMED ID opgedeeld in blokken van 8, gescheiden door een koppelstreepje. Voor de patiëntvriendelijke taalreferentieset wordt de language tag dus: __nl-NL-x-sctlang-15551000-146102__.
 
 #### URI's
 - __CodeSystem__:   https://terminologieserver.nl/uri/cs/snomed-patient-friendly-terms
@@ -70,7 +72,7 @@ __Voorbeeld 1__ $lookup
             "part": [
                 {
                     "name": "language",
-                    "valueCode": "nl-NL-x-patfr"
+                    "valueCode": "nl-NL-x-sctlang-15551000-146102"
                 },
                 {
                     "name": "use",
@@ -111,7 +113,7 @@ __Voorbeeld 2__ $expand
             },
             {
                 "name": "displayLanguage",
-                "valueCode": "nl-NL-x-patfr"
+                "valueCode": "nl-NL-x-sctlang-15551000-146102"
             },
             {
                 "name": "count",
@@ -179,7 +181,7 @@ __Voorbeeld 2__ $expand
                         "value": "blindedarmontsteking"
                     },
                     {
-                        "language": "nl-NL-x-patfr",
+                        "language": "nl-NL-x-sctlang-15551000-146102",
                         "use": {
                             "system": "http://snomed.info/sct",
                             "code": "900000000000550004",
@@ -188,7 +190,7 @@ __Voorbeeld 2__ $expand
                         "value": "Dit is een ontsteking van het wormvormig aanhangsel (appendix) van de blindedarm, die erge buikpijn veroorzaakt."
                     },
                     {
-                        "language": "nl-NL-x-patfr",
+                        "language": "nl-NL-x-sctlang-15551000-146102",
                         "use": {
                             "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
                             "code": "display"
@@ -201,4 +203,4 @@ __Voorbeeld 2__ $expand
     }
 }
 ```
-In deze $expand is te zien dat naast de display uit het CodeSystem supplement, er twee designations aanwezig zijn met language=__nl-NL-x-patfr__. De tekstdefinitie, en de preferred term uit het CodeSystem Supplement met patiëntvriendelijke termen.
+In deze $expand is te zien dat naast de display uit het CodeSystem supplement, er twee designations aanwezig zijn met language=__nl-NL-x-sctlang-15551000-146102__. De tekstdefinitie, en de preferred term uit het CodeSystem Supplement met patiëntvriendelijke termen.
