@@ -14,4 +14,4 @@ Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden
 
 ## Potentiële toekomstige bronnen
 _Deze resources zijn (nog) niet publiek beschikbaar, maar zijn inclusief documentatie in ontwikkeling. Er is geen datum bekend waarop deze resources beschikbaar komen._
-- __ART-DECOR__ (decor.nictiz.nl)
+- __ART-DECOR__ (decor.nictiz.nl): https://github.com/terminologieserver/werkwijze-externe-content/blob/main/nictiz-art-decor.md
