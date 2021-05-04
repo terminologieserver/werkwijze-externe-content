@@ -130,3 +130,5 @@ dmypy.json
 
 # Project specific
 generate_resource_list.py
+docker-compose.yml
+Dockerfile
