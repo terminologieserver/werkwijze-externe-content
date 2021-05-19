@@ -12,3 +12,4 @@ Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden
 - __HL7__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hl7.md
 - __Labcodeset__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/labcodeset.md
 - __ART-DECOR__ (decor.nictiz.nl): https://github.com/terminologieserver/werkwijze-externe-content/blob/main/nictiz-art-decor.md
+- __ICD-10-NL__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/icd-10-nl.md
