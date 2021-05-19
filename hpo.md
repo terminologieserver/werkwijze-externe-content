@@ -12,7 +12,7 @@ In dit document wordt de werkwijze omtrent het uploaden van de __Human Phenotype
 - Bij het uploaden wordt een meta security label (https://www.hl7.org/fhir/security-labels.html) toegevoegd, waarmee toegang tot de resource beperkt kan worden tot een groep gebruikers. Dit label is voor HPO 'hpo.read'.
 - Aan de codesystems wordt een valueSet key toegevoegd. Dit is een url voor een implicit valueset die het hele codesysteem omvat. Deze wordt gegenereerd volgens het format: {{url}}?vs. Met andere woorden: er wordt *?vs* achter de URL geplaatst. Hiermee is het mogelijk om de server aan te roepen met https://terminologieserver.nl/fhir/ValueSet/$expand?url={{url}}?vs , met alle mogelijke parameters voor een $expand request.
 
-## Aandachtspunten bij het gebruik van LOINC via de Terminologieserver
+## Aandachtspunten bij het gebruik van HPO via de Terminologieserver
 - De URI van HPO is niet vastgelegd in de FHIR TA (https://confluence.hl7.org/display/TA/HPO+The+Human+Phenotype+Ontology). Er is geen consensus, derhalve wordt de URI uit het OWL-bestand aangehouden. Een deel van de standpunten is terug te lezen in deze discussie: https://chat.fhir.org/#narrow/stream/179202-terminology/topic/How.20to.20represent.20multiple.20inheritance.20in.20a.20CodeSystem
 - Versies van de HPO worden uitgedrukt volgens het formaat __http://purl.obolibrary.org/obo/hp/releases/YYYY-MM-DD/hp.owl__. Dit formaat kan Ontoserver niet interpreteren, dus voor het ophalen van de laatste versie moet de versie volgens dit formaat worden meegestuurd met de request.
 - Xref informatie uit de ontologie wordt beschikbaar gesteld als properties met de naam __xref__.
