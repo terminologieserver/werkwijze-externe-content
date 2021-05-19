@@ -15,7 +15,7 @@ De meest recente versie leverde dubbele codes op. Het script is inmiddels verbet
 - De versionering van de ICD-10 is geen timestamp. De Nederlandse versie heeft de versie-aanduiding "ICD-10 2021" meegekregen in het ClaML bestand. Deze versie-aanduiding is overgenomen in de FHIR-representatie.
 
 ## Aandachtspunten bij het gebruik van ICD-10-NL via de Terminologieserver
-- De eigenschappen _kind_, _referer_, _description_, _relatedTerm_, _remark_, _inclusion_, _exclusion_, _includeDescendants_, _asteriskHead_, _asteriskCategory_, _coding-hint_, _footnote_ en _note_ worden als properties beschikbaar gesteld in het CodeSystem.
+- De eigenschappen _kind_, _referer_, _description_, _relatedTerm_, _remark_, _inclusion_, _exclusion_, _includeDescendants_, _asteriskHead_, _asteriskCategory_, _coding-hint_, _footnote_ en _note_ worden als gelijknamige properties beschikbaar gesteld in het CodeSystem.
 
 ## Beschikbare FHIR-resources
 De gegenereerde CodeSystems hebben de volgende URIs:
