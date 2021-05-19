@@ -1,8 +1,8 @@
-# SNOMED
+# HGNC
 ## Auteurs
-__Geschreven door__: Feikje Hielkema-Raadsveld, functioneel beheerder Nederlandse Labcodeset
+__Geschreven door__: Sander Mertens
 
-__Review door__: Sander Mertens, projectleider Terminologieserver
+__Review door__: 
 
 ## Inleiding
 In dit document wordt de werkwijze omtrent het uploaden van de __HUGO Gene Nomenclature Committee__ gedocumenteerd. Het doel van dit document is inzichtelijk maken welke keuzes er gemaakt zijn voor dit proces, welke wijzigingen er ten opzichte van de bron gemaakt worden, en wat de aandachtspunten bij het gebruik van deze resources zijn.
