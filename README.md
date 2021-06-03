@@ -11,5 +11,5 @@ Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden
 - __LOINC__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/loinc.md
 - __HL7__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hl7.md
 - __Labcodeset__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/labcodeset.md
-- __HGNC__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hgnc.md
+- __HPO__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hpo.md
 - __ART-DECOR__ (decor.nictiz.nl): https://github.com/terminologieserver/werkwijze-externe-content/blob/main/nictiz-art-decor.md
