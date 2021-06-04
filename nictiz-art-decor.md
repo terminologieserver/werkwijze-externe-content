@@ -2,7 +2,7 @@
 ## Auteurs
 __Geschreven door__: Sander Mertens
 
-__Review door__: 
+__Review door__: Michael Verbeek
 
 ## Inleiding
 In dit document wordt de werkwijze omtrent het spiegelen van FHIR-resources uit de Nictiz-instantie van ART-DECOR (decor.nictiz.nl) gedocumenteerd. Het doel van dit document is inzichtelijk maken welke keuzes er gemaakt zijn voor dit proces, welke wijzigingen er ten opzichte van de versie op decor.nictiz.nl gemaakt worden, en wat de aandachtspunten bij het gebruik van deze resources zijn.
