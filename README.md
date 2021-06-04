@@ -7,11 +7,11 @@ Aangezien de Nationale Terminologieserver FHIR Terminology Resources uit verschi
 Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden gegeven van de herkomst en bewerking van de resources.
 
 ## Bronnen
-- __SNOMED__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/snomed.md
-- __LOINC__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/loinc.md
-- __HL7__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/hl7.md
-- __Labcodeset__: https://github.com/terminologieserver/werkwijze-externe-content/blob/main/labcodeset.md
-
-## Potentiële toekomstige bronnen
-_Deze resources zijn (nog) niet publiek beschikbaar, maar zijn inclusief documentatie in ontwikkeling. Er is geen datum bekend waarop deze resources beschikbaar komen._
-- __ART-DECOR__ (decor.nictiz.nl)
+- __SNOMED__: [Open](snomed.md)
+- __LOINC__: [Open](loinc.md)
+- __HL7__: [Open](hl7.md)
+- __Labcodeset__: [Open](labcodeset.md)
+- __ICD-10-NL__: [Open](icd-10-nl.md)
+- __HPO__: [Open](hpo.md)
+- __HGNC__: [Open](hgnc.md)
+- __ART-DECOR__ (decor.nictiz.nl): [Open](nictiz-art-decor.md)
