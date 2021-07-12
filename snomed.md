@@ -2,7 +2,7 @@
 ## Auteurs
 __Geschreven door__: Sander Mertens, projectleider Terminologieserver
 
-__Review door__: 
+__Review door__: Michael Verbeek
 
 ## Inleiding
 In dit document wordt de werkwijze omtrent het uploaden van de SNOMED-standaard gedocumenteerd. Het doel van dit document is inzichtelijk maken welke keuzes er gemaakt zijn voor dit proces, welke wijzigingen er ten opzichte van de bron gemaakt worden, en wat de aandachtspunten bij het gebruik van deze resources zijn.
@@ -24,7 +24,7 @@ In dit document wordt de werkwijze omtrent het uploaden van de SNOMED-standaard 
 Voor het gebruik van taalreferentiesets bieden we twee opties.
 ### Optie 1
 
-Bij het aanroepen van de Nederlandse SNOMED-editie (dit is de standaard module: 11000146104) in de terminologieserver wordt de voorkeur gegeven aan displaytermen uit de Nederlandse Taalreferentieset (31000146106). Om het mogelijk te maken om een display (=Preferred Term) te tonen uit de Patiëntvriendelijke extensie, indexeren we SNOMED een tweede keer, waarbij we de voorkeur aan termen uit de Patiëntvriendelijke taalreferentieset (15551000146102) uit de Patiënt Friendly Terms extension (module 15561000146104).
+Bij het aanroepen van de Nederlandse SNOMED-editie (dit is de standaard module: 11000146104) in de terminologieserver wordt de voorkeur gegeven aan displaytermen uit de Nederlandse Taalreferentieset (31000146106). Om het mogelijk te maken om een display (=Preferred Term) te tonen uit de Patiëntvriendelijke extensie, indexeren we SNOMED een tweede keer, waarbij we de voorkeur geven aan termen uit de Patiëntvriendelijke taalreferentieset (15551000146102) uit de Patiënt Friendly Terms extension (module 15561000146104).
 
 Door een request uit te voeren met op module _15561000146104_ zal waar mogelijk een display value uit de patiëntvriendelijke taalreferentieset getoond worden. Indien deze niet bestaat zal teruggevallen worden op de Nederlandse taalreferentieset, en vervolgens op de Engelse taalreferentiesets.
 - Voorbeeldrequest patiëntvriendelijke termen:
