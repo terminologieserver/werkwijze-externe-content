@@ -15,3 +15,4 @@ Per type bron zal in dit document een zo specifiek mogelijke beschrijving worden
 - __HPO__: [Open](hpo.md)
 - __HGNC__: [Open](hgnc.md)
 - __ART-DECOR__ (decor.nictiz.nl): [Open](nictiz-art-decor.md)
+- __NHG tabellen__: [Open](nhg.md)
