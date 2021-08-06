@@ -158,7 +158,7 @@ De gegenereerde resources hebben de volgende URIs:
 |NHG-Tabel 14|Contactwijze|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze|
 |NHG-Tabel 15|Verrichtingen|Niet beschikbaar|Niet beschikbaar|
 |NHG-Tabel 20|Code opleiding|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-20-code-opleiding|
-|NHG-Tabel 24|ICPC| |  |
+|NHG-Tabel 24|ICPC|CodeSystem|http://hl7.org/fhir/sid/icpc-1-nl|
 |NHG-Tabel 25|Gebruiksvoorschrift - tekstcategorieen|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#tekstcategorieen|
 |NHG-Tabel 25|Gebruiksvoorschrift - tijdseenheid|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#tijdseenheid|
 |NHG-Tabel 25|Gebruiksvoorschrift - aanvullende teksten|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-25-gebruiksvoorschrift#aanvullende_teksten|
