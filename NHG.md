@@ -31,7 +31,7 @@ Licentiehouder heeft toegang tot de volgende tabellen;
 	- NHG-Tabel 45 - Diagnostische bepalingen
 	- NHG-Tabel 48 - Bepalingenclusters
 	- NHG-Tabel 68 - Bepalingen nierfunctie
-### 4. NHG-Tabel ICPC en NHG-Tabel Diagnostische bepalingen (nhgICPCDB.read)
+### 4. NHG-Tabel ICPC en NHG-Tabel Diagnostische bepalingen (combinatie van nhgICPC.read en nhgDB.read)
 Licentiehouder heeft toegang tot de ICPC-Thesaurus, en de volgende tabellen;
 	- NHG-Tabel 24 - ICPC-1-NL
 	- NHG-Tabel 27 - ICPC en contra-indicatie aarden
@@ -45,7 +45,7 @@ Licentiehouder heeft toegang tot de ICPC-Thesaurus, en de volgende tabellen;
 	- NHG-Tabel 45 - Diagnostische bepalingen
 	- NHG-Tabel 48 - Bepalingenclusters
 	- NHG-Tabel 68 - Bepalingen nierfunctie
-### 5. NHG-Tabellen Diagnostische Bepalingen + Contactwijze + Verrichtingen (nhgDBCV.read)
+### 5. NHG-Tabellen Diagnostische Bepalingen + Contactwijze + Verrichtingen (combinatie van nhgDB.read en nhgCV.read)
 Licentiehouder heeft toegang tot de volgende tabellen;
 	- NHG-Tabel 45 - Diagnostische bepalingen
 	- NHG-Tabel 48 - Bepalingenclusters
@@ -130,8 +130,6 @@ nb. readlabels voor de nieuwe licentiegroepen moeten nog worden ingericht.
 - De kolom omschrijving is beschikbaar als de display van het concept.
 - Materiaal, bijzonderheid, groep, antwoord en formules zijn beschikbaar als Coding properties.
 - Antwoordkeuzes zijn uit te lezen middels een ConceptMap.
-
-
 #### __NHG-Tabel 48 - Bepalingenclusters__
 - De juiste FHIR-representatie van deze tabel is nog niet duidelijk, en volgt op een later moment.
 #### __NHG-Tabel 49 - Ingrepen en behandelingen__
@@ -238,4 +236,4 @@ De gegenereerde resources hebben de volgende URIs:
 |NHG-Tabel 71|Primaire autorisatierollen|CodeSystem|https://referentiemodel.nhg.org/tabellen/nhg-tabel-71-primaire-autorisatierollen|
 
 ## Schema updates
-- Middels een geautomatiseerd proces wordt minimaal eenmaal per week de meest recente versie gedownload. Vervolgens wordt de transformatie uitgevoerd zoals beschreven onder _methode_.
+- Middels een geautomatiseerd proces wordt minimaal eenmaal per week de meest recente versie gedownload. Oudere versies komen daarmee te vervallen en zijn niet meer op te vragen.
